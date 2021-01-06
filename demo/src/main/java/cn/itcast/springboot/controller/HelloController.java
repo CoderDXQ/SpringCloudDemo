@@ -29,6 +29,7 @@ public class HelloController {
     @GetMapping("show")
     public String test() {
 //        System.out.println(dataSource.toString());
+        System.out.println();
         return "hello springboot 1";
     }
 
