@@ -13,6 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
  * @version 1.0
  * @date 2021/1/7 5:23 下午
  */
+
+//数据库的表要提前建好，不然拿不到数据
 @RestController
 @RequestMapping("user")
 public class UserController {
