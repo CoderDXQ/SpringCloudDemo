@@ -9,10 +9,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.RestTemplate;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = HttpDemoApplication.class)
+@SpringBootTest(classes = HttpDemoApplication.class)//声明是一个SpringBoot的测试程序 并说明引导类
 public class HttpDemoApplicationTests {
 
-	@Autowired
+	@Autowired//注入  这个类可以自动执行序列化和反序列化
 	private RestTemplate restTemplate;
 
 	@Test
