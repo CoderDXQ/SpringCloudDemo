@@ -1,40 +1,46 @@
 package com.leyou.httpdemo.pojo;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.io.Serializable;
 import java.util.Date;
 
+/**
+ * @author Duan Xiangqing
+ * @version 1.0
+ * @date 2021/1/7 5:24 下午
+ */
+
+//操作的数据库里的表名
+@Table(name = "tb_user")
 public class User implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     // 用户名
-    private String userName;
+    private String username;
 
     // 密码
     private String password;
 
-    // 姓名
-    private String name;
-
-    // 年龄
-    private Integer age;
-
-    // 性别，1男性，2女性
-    private Integer sex;
-
-    // 出生日期
-    private Date birthday;
+    private String phone;
 
     // 创建时间
     private Date created;
 
-    // 更新时间
-    private Date updated;
 
     // 备注
-    private String note;
+    private String salt;
+
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
 
     public Long getId() {
         return id;
@@ -44,12 +50,12 @@ public class User implements Serializable {
         this.id = id;
     }
 
-    public String getUserName() {
-        return userName;
+    public String getUsername() {
+        return username;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getPassword() {
@@ -60,36 +66,12 @@ public class User implements Serializable {
         this.password = password;
     }
 
-    public String getName() {
-        return name;
+    public String getPhone() {
+        return phone;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Integer getAge() {
-        return age;
-    }
-
-    public void setAge(Integer age) {
-        this.age = age;
-    }
-
-    public Integer getSex() {
-        return sex;
-    }
-
-    public void setSex(Integer sex) {
-        this.sex = sex;
-    }
-
-    public Date getBirthday() {
-        return birthday;
-    }
-
-    public void setBirthday(Date birthday) {
-        this.birthday = birthday;
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     public Date getCreated() {
@@ -100,27 +82,23 @@ public class User implements Serializable {
         this.created = created;
     }
 
-    public Date getUpdated() {
-        return updated;
+    public String getSalt() {
+        return salt;
     }
 
-    public void setUpdated(Date updated) {
-        this.updated = updated;
-    }
-
-    public String getNote() {
-        return note;
-    }
-
-    public void setNote(String note) {
-        this.note = note;
+    public void setSalt(String salt) {
+        this.salt = salt;
     }
 
     @Override
     public String toString() {
-        return "User [id=" + id + ", userName=" + userName + ", password="
-                + password + ", name=" + name + ", age=" + age + ", sex=" + sex
-                + ", birthday=" + birthday + ", created=" + created
-                + ", updated=" + updated + ", note=" + note + "]";
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", phone='" + phone + '\'' +
+                ", created=" + created +
+                ", salt='" + salt + '\'' +
+                '}';
     }
 }

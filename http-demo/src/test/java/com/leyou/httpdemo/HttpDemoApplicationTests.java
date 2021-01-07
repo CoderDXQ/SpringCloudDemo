@@ -17,8 +17,10 @@ public class HttpDemoApplicationTests {
 
 	@Test
 	public void httpGet() {
-		User user = this.restTemplate.getForObject("http://localhost/hello", User.class);
+		User user = this.restTemplate.getForObject("http://localhost:8080/user/28", User.class);
+		System.out.println();
 		System.out.println(user);
+		System.out.println(user.toString());
 	}
 
 }

@@ -1,6 +1,6 @@
 package com.leyou.httpdemo;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
+
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.leyou.httpdemo.pojo.User;
@@ -14,6 +14,7 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
 
 public class HttpTests {
@@ -33,7 +34,7 @@ public class HttpTests {
     public void testGet() throws IOException {
 //        HttpGet request = new HttpGet("http://www.baidu.com");
 //        执行前需要先启动
-        HttpGet request = new HttpGet("http://localhost:8080/hello2/show");
+        HttpGet request = new HttpGet("http://localhost:8080/hello/show");
         String response = this.httpClient.execute(request, new BasicResponseHandler());
 //        输出整个页面的源码
         System.out.println(response);
@@ -50,13 +51,15 @@ public class HttpTests {
 
     @Test
     public void testGetPojo() throws IOException {
-        HttpGet request = new HttpGet("http://localhost/hello");
+//        28号数据库里有，其他的不一定有
+        HttpGet request = new HttpGet("http://localhost:8080/user/28");
         String response = this.httpClient.execute(request, new BasicResponseHandler());
         System.out.println(response);
+        System.out.println();
 
 //        反序列化
         User user = MAPPER.readValue(response, User.class);
-        System.out.println(user);
+        System.out.println(user.toString());
     }
 
     //    json处理工具 各种序列化与反序列化
@@ -65,9 +68,9 @@ public class HttpTests {
     public void testJson() throws IOException {
         User user = new User();
         user.setId(8L);
-        user.setAge(21);
-        user.setName("柳岩");
-        user.setUserName("liuyan");
+        user.setCreated(new Date());
+        user.setPassword("sdfgsdf");
+        user.setPhone("liuyan");
 //        打印类信息
         System.out.println(user);
         System.out.println();
@@ -83,7 +86,7 @@ public class HttpTests {
         System.out.println();
 
 //        json转集合
-        user1.setName("gg");
+        user1.setUsername("gg");
         User[] us = {user, user1};
         String jsons = MAPPER.writeValueAsString(us);
 //        两个参数：json字符串和反序列化的目标类字节码
