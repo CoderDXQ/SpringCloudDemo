@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.leyou.demo</groupId>
-	<artifactId>user-service-demo</artifactId>
+	<artifactId>itcast-service-provider</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>user-service-demo</name>
+	<name>itcast-service-provider</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>

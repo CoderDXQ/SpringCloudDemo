@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="http-demo" />
+        <module name="itcast-service-consumer" />
         <module name="itcast-service-provider" />
         <module name="springboot-demo" />
         <module name="itcast-springboot" />
@@ -14,6 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="http-demo" target="1.8" />
+      <module name="itcast-service-consumer" target="1.8" />
       <module name="itcast-service-provider" target="1.8" />
       <module name="itcast-springboot" target="1.8" />
       <module name="springboot-demo" target="1.8" />
@@ -22,6 +24,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="http-demo" options="-parameters" />
+      <module name="itcast-service-consumer" options="-parameters" />
       <module name="itcast-service-provider" options="-parameters" />
       <module name="itcast-springboot" options="-parameters" />
       <module name="springboot-demo" options="-parameters" />
