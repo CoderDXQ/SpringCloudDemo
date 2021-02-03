@@ -1,2 +1,13 @@
 server:
   port: 8080
+spring:
+  application:
+    name: consumer
+eureka:
+  client:
+    service-url:
+      #这里有个坑  要在defaultZone前添加空格，把defaultZone和service-url区分开
+     defaultZone: http://localhost:10086/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
