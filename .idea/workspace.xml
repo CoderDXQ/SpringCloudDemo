@@ -137,4 +137,24 @@
     </state>
     <state x="277" y="-921" key="new project wizard/-67.-1080.1920.1080/0.0.1792.1120@-67.-1080.1920.1080" timestamp="1609939172209" />
   </component>
+
+  <component name="RunDashboard"> 
+  <option name="configurationTypes">
+    <set> 
+      <option value="SpringBootApplicationConfigurationType" />
+    </set> 
+  </option> 
+  <option name="ruleStates"> 
+    <list> 
+      <RuleState> 
+        <option name="name" value="ConfigurationTypeDashboardGroupingRule" /> 
+      </RuleState> 
+      <RuleState> 
+        <option name="name" value="StatusDashboardGroupingRule" /> 
+      </RuleState> 
+    </list>
+  </option> 
+</component>
+
+
 </project>
