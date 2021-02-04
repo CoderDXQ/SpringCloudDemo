@@ -3,6 +3,7 @@ package cn.itcast.service.controller;
 import cn.itcast.service.pojo.User;
 //import com.netflix.discovery.DiscoveryClient;
 //import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.annotation.DefaultProperties;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
@@ -25,6 +26,7 @@ import java.util.List;
 
 @Controller
 @RequestMapping("consumer/user")
+@DefaultProperties(defaultFallback = "fallbackMethod")//定义全局的熔断降级返回方法 熔断方法和被熔断方法的返回值类型和参数方法是要一致的
 public class UserController {
 
     @Autowired
@@ -57,9 +59,10 @@ public class UserController {
      * }
      */
 
+    //    @HystrixCommand(fallbackMethod = "queryUserByIdFallback") //调用失败触发熔断机制
     @GetMapping
     @ResponseBody
-    @HystrixCommand(fallbackMethod = "queryUserByIdFallback") //调用失败触发熔断机制
+    @HystrixCommand
     public String queryUserById1(@RequestParam("id") Long id) {
         //从Eureka获取服务实例
 //        List<ServiceInstance> instances = discoveryClient.getInstances("service-provider");
@@ -77,7 +80,13 @@ public class UserController {
     }
 
     //    这里面的"Long id"不能删除   @HystrixCommand(fallbackMethod = "")要求参数是一致的
-    public String queryUserByIdFallback(Long id) {
+//    public String fallbackMethod(Long id) {
+//        return "服务器正忙，请稍后再试";
+//    }
+
+
+//    全局配置的熔断器的方法的参数为空
+    public String fallbackMethod() {
         return "服务器正忙，请稍后再试";
     }
 
