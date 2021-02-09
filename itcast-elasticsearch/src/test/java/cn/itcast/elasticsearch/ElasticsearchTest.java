@@ -162,7 +162,7 @@ public class ElasticsearchTest {
     public void testsubAggs() {
 //        初始化自定义查询构建器
         NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
-//        添加聚合
+//        添加聚合 聚合名称分类条件以及求平均的运算
         queryBuilder.addAggregation(AggregationBuilders.terms("brandAgg").field("brand").subAggregation(AggregationBuilders.avg("price_avg").field("price")));
 //        添加结果集过滤，不包括任何字段
         queryBuilder.withSourceFilter(new FetchSourceFilter(new String[]{}, null));
