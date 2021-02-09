@@ -4,6 +4,10 @@ import cn.itcast.elasticsearch.pojo.Item;
 import com.sun.jna.Native;
 import org.elasticsearch.index.query.MatchQueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
+import org.elasticsearch.search.aggregations.Aggregation;
+import org.elasticsearch.search.aggregations.AggregationBuilders;
+import org.elasticsearch.search.aggregations.bucket.terms.StringTerms;
+import org.elasticsearch.search.aggregations.metrics.avg.InternalAvg;
 import org.elasticsearch.search.sort.SortBuilders;
 import org.elasticsearch.search.sort.SortOrder;
 import org.junit.Test;
@@ -14,11 +18,14 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
+import org.springframework.data.elasticsearch.core.aggregation.AggregatedPage;
+import org.springframework.data.elasticsearch.core.query.FetchSourceFilter;
 import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilder;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author Duan Xiangqing
@@ -103,11 +110,11 @@ public class ElasticsearchTest {
         items.forEach(System.out::println);
     }
 
-    //    自定义查询
+    //    自定义查询及高级查询
     @Test
     public void testNative() {
 
-//        构建自定义查询器
+//        构建自定义查询器 帮助构建json的请求体
         NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
 
 //        添加基本的查询条件
@@ -125,6 +132,65 @@ public class ElasticsearchTest {
         System.out.println(itemPage.getTotalElements());
 //        itemPage.forEach(System.out::println);
         itemPage.getContent().forEach(System.out::println);
+
+    }
+
+    @Test
+    public void testAggs() {
+//        初始化自定义查询构建器
+        NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
+//        添加聚合
+        queryBuilder.addAggregation(AggregationBuilders.terms("brandAgg").field("brand"));
+//        添加结果集过滤，不包括任何字段
+        queryBuilder.withSourceFilter(new FetchSourceFilter(new String[]{}, null));
+//        执行聚合查询
+        AggregatedPage<Item> itemPage = (AggregatedPage<Item>) this.itemRepository.search(queryBuilder.build());
+//        解析聚合结果集，根据聚合的类型以及字段类型要进行强转，brand是字符串类型的，聚合类型-词条聚合，brandAgg-通过聚合名称获取聚合对
+        StringTerms brandAgg = (StringTerms) itemPage.getAggregation("brandAgg");
+//        获取桶的集合
+        List<StringTerms.Bucket> buckets = brandAgg.getBuckets();
+        buckets.forEach(bucket -> {
+//            获取字符串类型的聚合
+            System.out.println(bucket.getKeyAsString());
+//            获取每个聚合里的记录数
+            System.out.println(bucket.getDocCount());
+        });
+
+    }
+
+    @Test
+    public void testsubAggs() {
+//        初始化自定义查询构建器
+        NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
+//        添加聚合
+        queryBuilder.addAggregation(AggregationBuilders.terms("brandAgg").field("brand").subAggregation(AggregationBuilders.avg("price_avg").field("price")));
+//        添加结果集过滤，不包括任何字段
+        queryBuilder.withSourceFilter(new FetchSourceFilter(new String[]{}, null));
+//        执行聚合查询
+        AggregatedPage<Item> itemPage = (AggregatedPage<Item>) this.itemRepository.search(queryBuilder.build());
+
+
+        System.out.println("输出总的查询结果");
+        System.out.println(itemPage.getContent().toString());
+        System.out.println();
+
+//        聚合是对查询的结果进行处理
+//        解析聚合结果集，根据聚合的类型以及字段类型要进行强转，brand是字符串类型的，聚合类型-词条聚合，brandAgg-通过聚合名称获取聚合对
+        StringTerms brandAgg = (StringTerms) itemPage.getAggregation("brandAgg");
+//        获取桶的集合
+        List<StringTerms.Bucket> buckets = brandAgg.getBuckets();
+        buckets.forEach(bucket -> {
+//            获取字符串类型的聚合
+            System.out.println("Key: " + bucket.getKeyAsString());
+//            获取每个聚合里的记录数
+            System.out.println("Count: " + bucket.getDocCount());
+
+//            获取子聚合的map集合：key-聚合名称，value-对应的子集合对象
+            Map<String, Aggregation> stringAggregationMap = bucket.getAggregations().asMap();
+            InternalAvg price_avg = (InternalAvg) stringAggregationMap.get("price_avg");
+            System.out.println(price_avg.getValue());
+            System.out.println();
+        });
 
     }
 
