@@ -21,14 +21,16 @@ public class Recv2 {
         final Channel channel = connection.createChannel();
         // 声明队列
         channel.queueDeclare(QUEUE_NAME, false, false, false, null);
-        // 设置每个消费者同时只能处理一条消息
-        channel.basicQos(1);
+
+        // 设置每个消费者同时只能处理一条消息  去掉之后每个消费者同时可以处理多条消息 消息分配绝对平均而不是按负载均衡来
+//        channel.basicQos(1);
+
         // 定义队列的消费者
         DefaultConsumer consumer = new DefaultConsumer(channel) {
             // 获取消息，并且处理，这个方法类似事件监听，如果有消息的时候，会被自动调用
             @Override
             public void handleDelivery(String consumerTag, Envelope envelope, BasicProperties properties,
-                    byte[] body) throws IOException {
+                                       byte[] body) throws IOException {
                 // body 即消息体
                 String msg = new String(body);
                 System.out.println(" [消费者2] received : " + msg + "!");

@@ -12,7 +12,7 @@ import cn.itcast.rabbitmq.util.ConnectionUtil;
 /**
  * 消费者1
  */
-public class Recv {
+class Recv {
     private final static String QUEUE_NAME = "direct_exchange_queue_1";
     private final static String EXCHANGE_NAME = "direct_exchange_test";
 

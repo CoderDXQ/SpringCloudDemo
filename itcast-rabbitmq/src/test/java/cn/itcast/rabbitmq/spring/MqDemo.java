@@ -15,13 +15,14 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest(classes = Application.class)
 public class MqDemo {
 
-    @Autowired
+    @Autowired //加载AMQP模板
     private AmqpTemplate amqpTemplate;
 
     @Test
     public void testSend() throws InterruptedException {
         String msg = "hello, Spring boot amqp";
-        this.amqpTemplate.convertAndSend("spring.test.exchange","a.b", msg);
+//        指定交换机、RoutingKey和消息体
+        this.amqpTemplate.convertAndSend("spring.test.exchange", "a.b", msg);
         // 等待10秒后再结束
         Thread.sleep(10000);
     }

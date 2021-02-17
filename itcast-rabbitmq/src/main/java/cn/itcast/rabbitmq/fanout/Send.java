@@ -5,8 +5,11 @@ import cn.itcast.rabbitmq.util.ConnectionUtil;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 
+//订阅模型，也叫广播
+//必须先启动生产者再启动消费者
 public class Send {
 
+    //    交换机
     private final static String EXCHANGE_NAME = "fanout_exchange_test";
 
     public static void main(String[] argv) throws Exception {
@@ -14,10 +17,10 @@ public class Send {
         Connection connection = ConnectionUtil.getConnection();
         // 获取通道
         Channel channel = connection.createChannel();
-        
+
         // 声明exchange，指定类型为fanout
         channel.exchangeDeclare(EXCHANGE_NAME, "fanout");
-        
+
         // 消息内容
         String message = "Hello everyone";
         // 发布消息到Exchange

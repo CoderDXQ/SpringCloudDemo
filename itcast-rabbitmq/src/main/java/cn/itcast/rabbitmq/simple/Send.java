@@ -8,6 +8,8 @@ import com.rabbitmq.client.MessageProperties;
 /**
  * 生产者
  */
+
+//work消费模型
 public class Send {
 
     private final static String QUEUE_NAME = "simple_queue";

@@ -23,82 +23,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f179e34d-b480-4886-b915-db9f189f83de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_9_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_base_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_core_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_extra_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_autoconfigure_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_starter_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_weekend_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast-rabbitmq/itcast-rabbitmq.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_0_M1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/itcast-springboot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/itcast-springboot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/direct/Recv(1).java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/direct/Recv(1).java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/direct/Send(1).java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/direct/Send(1).java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/fanout/Send.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/fanout/Send.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/simple/Recv.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/simple/Recv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/simple/Recv2.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/simple/Recv2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/simple/Send.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/simple/Send.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/spring/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/spring/Listener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/topic/Send.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/topic/Send.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/util/ConnectionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/util/ConnectionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/work/Recv.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/work/Recv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/work/Recv2.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/work/Recv2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/test/java/cn/itcast/rabbitmq/spring/MqDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/test/java/cn/itcast/rabbitmq/spring/MqDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +92,59 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ElasticsearchTest.testsubAggs">
+  <component name="RunManager" selected="JUnit.MqDemo.testSend">
+    <configuration name="Recv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.rabbitmq.topic.Recv" />
+      <module name="itcast-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.rabbitmq.topic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Recv2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.rabbitmq.topic.Recv2" />
+      <module name="itcast-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.rabbitmq.topic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Send (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.rabbitmq.topic.Send" />
+      <module name="itcast-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.rabbitmq.topic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Send (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.rabbitmq.direct.Send" />
+      <module name="itcast-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.rabbitmq.direct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -168,81 +158,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElasticsearchTest.testAggs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="itcast-elasticsearch" />
+    <configuration name="MqDemo.testSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itcast-rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.elasticsearch.*" />
+          <option name="PATTERN" value="cn.itcast.rabbitmq.spring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast.elasticsearch" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.elasticsearch.ElasticsearchTest" />
-      <option name="METHOD_NAME" value="testAggs" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElasticsearchTest.testNative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="itcast-elasticsearch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.elasticsearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast.elasticsearch" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.elasticsearch.ElasticsearchTest" />
-      <option name="METHOD_NAME" value="testNative" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElasticsearchTest.testfindbetween" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="itcast-elasticsearch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.elasticsearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast.elasticsearch" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.elasticsearch.ElasticsearchTest" />
-      <option name="METHOD_NAME" value="testfindbetween" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElasticsearchTest.testsearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="itcast-elasticsearch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.elasticsearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast.elasticsearch" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.elasticsearch.ElasticsearchTest" />
-      <option name="METHOD_NAME" value="testsearch" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElasticsearchTest.testsubAggs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="itcast-elasticsearch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.elasticsearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast.elasticsearch" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.elasticsearch.ElasticsearchTest" />
-      <option name="METHOD_NAME" value="testsubAggs" />
+      <option name="PACKAGE_NAME" value="cn.itcast.rabbitmq.spring" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.rabbitmq.spring.MqDemo" />
+      <option name="METHOD_NAME" value="testSend" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -257,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ElasticsearchTest.testsubAggs" />
-        <item itemvalue="JUnit.ElasticsearchTest.testAggs" />
-        <item itemvalue="JUnit.ElasticsearchTest.testNative" />
-        <item itemvalue="JUnit.ElasticsearchTest.testsearch" />
-        <item itemvalue="JUnit.ElasticsearchTest.testfindbetween" />
+        <item itemvalue="JUnit.MqDemo.testSend" />
+        <item itemvalue="Application.Send (1)" />
+        <item itemvalue="Application.Recv" />
+        <item itemvalue="Application.Recv2 (1)" />
+        <item itemvalue="Application.Send (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +202,7 @@
       <workItem from="1609938312947" duration="2478000" />
       <workItem from="1612858214533" duration="9906000" />
       <workItem from="1613532652531" duration="281000" />
-      <workItem from="1613532964136" duration="281000" />
+      <workItem from="1613532964136" duration="6409000" />
     </task>
     <servers />
   </component>
@@ -309,35 +235,39 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="709" y="280" key="#com.intellij.ide.util.MemberChooser/167.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1612862786726" />
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1612880904891">
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1613546615933">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1878" height="305" key="GridCell.Tab.0.bottom/-67.-1080.1920.1080/0.0.1792.1120@-67.-1080.1920.1080" timestamp="1609947910519" />
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom/-68.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1613546615933" />
     <state width="1750" height="318" key="GridCell.Tab.0.bottom/167.-1055.1920.1055/0.0.1792.1051@0.0.1792.1051" timestamp="1612863107152" />
     <state width="1750" height="318" key="GridCell.Tab.0.bottom/167.-1055.1920.1055/0.0.1792.1052@0.0.1792.1052" timestamp="1612879096268" />
     <state width="1750" height="318" key="GridCell.Tab.0.bottom/167.-1055.1920.1055/0.25.1792.1027@0.25.1792.1027" timestamp="1612880490750" />
     <state width="1750" height="318" key="GridCell.Tab.0.bottom/167.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1612880904891" />
-    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1612880904887">
+    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1613546615929">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1878" height="305" key="GridCell.Tab.0.center/-67.-1080.1920.1080/0.0.1792.1120@-67.-1080.1920.1080" timestamp="1609947910516" />
+    <state width="1750" height="318" key="GridCell.Tab.0.center/-68.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1613546615929" />
     <state width="1750" height="318" key="GridCell.Tab.0.center/167.-1055.1920.1055/0.0.1792.1051@0.0.1792.1051" timestamp="1612863107142" />
     <state width="1750" height="318" key="GridCell.Tab.0.center/167.-1055.1920.1055/0.0.1792.1052@0.0.1792.1052" timestamp="1612879096264" />
     <state width="1750" height="318" key="GridCell.Tab.0.center/167.-1055.1920.1055/0.25.1792.1027@0.25.1792.1027" timestamp="1612880490740" />
     <state width="1750" height="318" key="GridCell.Tab.0.center/167.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1612880904887" />
-    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1612880904884">
+    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1613546615927">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1878" height="305" key="GridCell.Tab.0.left/-67.-1080.1920.1080/0.0.1792.1120@-67.-1080.1920.1080" timestamp="1609947910514" />
+    <state width="1750" height="318" key="GridCell.Tab.0.left/-68.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1613546615927" />
     <state width="1750" height="318" key="GridCell.Tab.0.left/167.-1055.1920.1055/0.0.1792.1051@0.0.1792.1051" timestamp="1612863107140" />
     <state width="1750" height="318" key="GridCell.Tab.0.left/167.-1055.1920.1055/0.0.1792.1052@0.0.1792.1052" timestamp="1612879096261" />
     <state width="1750" height="318" key="GridCell.Tab.0.left/167.-1055.1920.1055/0.25.1792.1027@0.25.1792.1027" timestamp="1612880433037" />
     <state width="1750" height="318" key="GridCell.Tab.0.left/167.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1612880904884" />
     <state width="1750" height="318" key="GridCell.Tab.0.left/167.-1080.1920.1080/0.0.1792.1120@0.25.1792.1027" timestamp="1612880490734" />
-    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1612880904889">
+    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1613546615931">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1878" height="305" key="GridCell.Tab.0.right/-67.-1080.1920.1080/0.0.1792.1120@-67.-1080.1920.1080" timestamp="1609947910517" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right/-68.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1613546615931" />
     <state width="1750" height="318" key="GridCell.Tab.0.right/167.-1055.1920.1055/0.0.1792.1051@0.0.1792.1051" timestamp="1612863107145" />
     <state width="1750" height="318" key="GridCell.Tab.0.right/167.-1055.1920.1055/0.0.1792.1052@0.0.1792.1052" timestamp="1612879096266" />
     <state width="1750" height="318" key="GridCell.Tab.0.right/167.-1055.1920.1055/0.25.1792.1027@0.25.1792.1027" timestamp="1612880490748" />
