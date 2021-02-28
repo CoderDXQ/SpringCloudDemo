@@ -6,13 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="itcast-springboot" />
         <module name="itcast-rabbitmq" />
+        <module name="itcast-mongodb" />
         <module name="itcast-elasticsearch" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="itcast-elasticsearch" target="1.8" />
+      <module name="itcast-mongodb" target="1.8" />
       <module name="itcast-rabbitmq" target="1.8" />
       <module name="itcast-springboot" target="1.8" />
     </bytecodeTargetLevel>
@@ -20,6 +21,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="itcast-elasticsearch" options="-parameters" />
+      <module name="itcast-mongodb" options="-parameters" />
       <module name="itcast-rabbitmq" options="-parameters" />
       <module name="itcast-springboot" options="-parameters" />
     </option>

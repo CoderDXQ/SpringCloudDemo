@@ -6,7 +6,11 @@
 
     <groupId>cn.itcast.springboot</groupId>
     <artifactId>itcast-springboot</artifactId>
+    <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
+    <modules>
+        <module>../itcast-mongodb</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

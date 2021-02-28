@@ -23,20 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f179e34d-b480-4886-b915-db9f189f83de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itcast-mongodb/itcast-mongodb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itcast-mongodb/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itcast-mongodb/src/test/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itcast-mongodb/src/test/java/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itcast-mongodb/src/test/java/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/direct/Recv(1).java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/direct/Recv(1).java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/direct/Send(1).java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/direct/Send(1).java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/fanout/Send.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/fanout/Send.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/simple/Recv.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/simple/Recv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/simple/Recv2.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/simple/Recv2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/simple/Send.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/simple/Send.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/spring/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/spring/Listener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/topic/Send.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/topic/Send.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/util/ConnectionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/util/ConnectionUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/work/Recv.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/work/Recv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/work/Recv2.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/main/java/cn/itcast/rabbitmq/work/Recv2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-rabbitmq/src/test/java/cn/itcast/rabbitmq/spring/MqDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-rabbitmq/src/test/java/cn/itcast/rabbitmq/spring/MqDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +46,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -92,7 +91,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MqDemo.testSend">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Recv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.itcast.rabbitmq.topic.Recv" />
       <module name="itcast-rabbitmq" />
@@ -132,28 +131,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Send (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.rabbitmq.direct.Send" />
-      <module name="itcast-rabbitmq" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.rabbitmq.direct.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="itcast-mongodb" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.MqDemo.testSend" />
         <item itemvalue="Application.Send (1)" />
         <item itemvalue="Application.Recv" />
         <item itemvalue="Application.Recv2 (1)" />
-        <item itemvalue="Application.Send (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -203,6 +194,7 @@
       <workItem from="1612858214533" duration="9906000" />
       <workItem from="1613532652531" duration="281000" />
       <workItem from="1613532964136" duration="6677000" />
+      <workItem from="1614536703975" duration="2407000" />
     </task>
     <servers />
   </component>
@@ -226,48 +218,53 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="530" y="242" key="#Inspections/167.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1612880704748" />
-    <state x="418" y="122" key="#Project_Structure" timestamp="1612861241442">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state x="418" y="136" key="#Project_Structure" timestamp="1614536845887">
+      <screen x="0" y="25" width="1792" height="1015" />
     </state>
     <state x="381" y="-962" key="#Project_Structure/-67.-1080.1920.1080/0.0.1792.1120@-67.-1080.1920.1080" timestamp="1609938353485" />
+    <state x="418" y="136" key="#Project_Structure/-68.-1055.1920.1055/0.25.1792.1015@0.25.1792.1015" timestamp="1614536845887" />
     <state x="418" y="122" key="#Project_Structure/167.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1612861241442" />
     <state x="709" y="280" key="#com.intellij.ide.util.MemberChooser" timestamp="1612862786726">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="709" y="280" key="#com.intellij.ide.util.MemberChooser/167.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1612862786726" />
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1613547789507">
+    <state width="1750" height="435" key="GridCell.Tab.0.bottom" timestamp="1614539009433">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1878" height="305" key="GridCell.Tab.0.bottom/-67.-1080.1920.1080/0.0.1792.1120@-67.-1080.1920.1080" timestamp="1609947910519" />
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom/-68.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1613547789507" />
+    <state width="1750" height="274" key="GridCell.Tab.0.bottom/-68.-1055.1920.1055/0.25.1792.1015@0.25.1792.1015" timestamp="1614537566704" />
+    <state width="1750" height="435" key="GridCell.Tab.0.bottom/-68.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1614539009433" />
     <state width="1750" height="318" key="GridCell.Tab.0.bottom/167.-1055.1920.1055/0.0.1792.1051@0.0.1792.1051" timestamp="1612863107152" />
     <state width="1750" height="318" key="GridCell.Tab.0.bottom/167.-1055.1920.1055/0.0.1792.1052@0.0.1792.1052" timestamp="1612879096268" />
     <state width="1750" height="318" key="GridCell.Tab.0.bottom/167.-1055.1920.1055/0.25.1792.1027@0.25.1792.1027" timestamp="1612880490750" />
     <state width="1750" height="318" key="GridCell.Tab.0.bottom/167.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1612880904891" />
-    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1613547789503">
+    <state width="1750" height="435" key="GridCell.Tab.0.center" timestamp="1614539009429">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1878" height="305" key="GridCell.Tab.0.center/-67.-1080.1920.1080/0.0.1792.1120@-67.-1080.1920.1080" timestamp="1609947910516" />
-    <state width="1750" height="318" key="GridCell.Tab.0.center/-68.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1613547789503" />
+    <state width="1750" height="274" key="GridCell.Tab.0.center/-68.-1055.1920.1055/0.25.1792.1015@0.25.1792.1015" timestamp="1614537566701" />
+    <state width="1750" height="435" key="GridCell.Tab.0.center/-68.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1614539009429" />
     <state width="1750" height="318" key="GridCell.Tab.0.center/167.-1055.1920.1055/0.0.1792.1051@0.0.1792.1051" timestamp="1612863107142" />
     <state width="1750" height="318" key="GridCell.Tab.0.center/167.-1055.1920.1055/0.0.1792.1052@0.0.1792.1052" timestamp="1612879096264" />
     <state width="1750" height="318" key="GridCell.Tab.0.center/167.-1055.1920.1055/0.25.1792.1027@0.25.1792.1027" timestamp="1612880490740" />
     <state width="1750" height="318" key="GridCell.Tab.0.center/167.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1612880904887" />
-    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1613547789496">
+    <state width="1750" height="435" key="GridCell.Tab.0.left" timestamp="1614539009422">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1878" height="305" key="GridCell.Tab.0.left/-67.-1080.1920.1080/0.0.1792.1120@-67.-1080.1920.1080" timestamp="1609947910514" />
-    <state width="1750" height="318" key="GridCell.Tab.0.left/-68.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1613547789496" />
+    <state width="1750" height="274" key="GridCell.Tab.0.left/-68.-1055.1920.1055/0.25.1792.1015@0.25.1792.1015" timestamp="1614537566700" />
+    <state width="1750" height="435" key="GridCell.Tab.0.left/-68.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1614539009422" />
     <state width="1750" height="318" key="GridCell.Tab.0.left/167.-1055.1920.1055/0.0.1792.1051@0.0.1792.1051" timestamp="1612863107140" />
     <state width="1750" height="318" key="GridCell.Tab.0.left/167.-1055.1920.1055/0.0.1792.1052@0.0.1792.1052" timestamp="1612879096261" />
     <state width="1750" height="318" key="GridCell.Tab.0.left/167.-1055.1920.1055/0.25.1792.1027@0.25.1792.1027" timestamp="1612880433037" />
     <state width="1750" height="318" key="GridCell.Tab.0.left/167.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1612880904884" />
     <state width="1750" height="318" key="GridCell.Tab.0.left/167.-1080.1920.1080/0.0.1792.1120@0.25.1792.1027" timestamp="1612880490734" />
-    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1613547789505">
+    <state width="1750" height="435" key="GridCell.Tab.0.right" timestamp="1614539009431">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1878" height="305" key="GridCell.Tab.0.right/-67.-1080.1920.1080/0.0.1792.1120@-67.-1080.1920.1080" timestamp="1609947910517" />
-    <state width="1750" height="318" key="GridCell.Tab.0.right/-68.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1613547789505" />
+    <state width="1750" height="274" key="GridCell.Tab.0.right/-68.-1055.1920.1055/0.25.1792.1015@0.25.1792.1015" timestamp="1614537566703" />
+    <state width="1750" height="435" key="GridCell.Tab.0.right/-68.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1614539009431" />
     <state width="1750" height="318" key="GridCell.Tab.0.right/167.-1055.1920.1055/0.0.1792.1051@0.0.1792.1051" timestamp="1612863107145" />
     <state width="1750" height="318" key="GridCell.Tab.0.right/167.-1055.1920.1055/0.0.1792.1052@0.0.1792.1052" timestamp="1612879096266" />
     <state width="1750" height="318" key="GridCell.Tab.0.right/167.-1055.1920.1055/0.25.1792.1027@0.25.1792.1027" timestamp="1612880490748" />
@@ -297,10 +294,11 @@
     </state>
     <state x="402" y="-904" key="SettingsEditor/-67.-1080.1920.1080/0.0.1792.1120@-67.-1080.1920.1080" timestamp="1609939174970" />
     <state x="438" y="183" key="SettingsEditor/-68.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1613533244592" />
-    <state x="321" y="165" key="new project wizard" timestamp="1612858656633">
+    <state x="321" y="165" key="new project wizard" timestamp="1614536820384">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="277" y="-921" key="new project wizard/-67.-1080.1920.1080/0.0.1792.1120@-67.-1080.1920.1080" timestamp="1609939172209" />
+    <state x="321" y="165" key="new project wizard/-68.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1614536820384" />
     <state x="321" y="165" key="new project wizard/167.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1612858656633" />
   </component>
 </project>
