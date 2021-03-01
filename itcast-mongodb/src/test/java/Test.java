@@ -16,21 +16,26 @@ public class Test {
 
     public static void main(String[] args) {
 
-        MongoClient client = new MongoClient("10.108.163.120", 27017);
+//        MongoClient client = new MongoClient("10.108.163.120", 27017);
 
 //        MongoClientURI connectionString = new MongoClientURI("mongodb://root:123456789@10.108.163.120:27017/spitdb");
 //        MongoClient client = new MongoClient(connectionString);
-//        MongoClient client = new MongoClient("localhost", 27017);
+        MongoClient client = new MongoClient("localhost", 27017);
         MongoDatabase database = client.getDatabase("spitdb");
         MongoCollection<Document> spit = database.getCollection("spit");
         FindIterable<Document> documents = spit.find();
 
         for (Document document : documents) {
+            System.out.println("_id: " + document.getObjectId("_id"));
             System.out.println("内容：" + document.getString("content"));
             System.out.println("用户ID: " + document.getString("userid"));
-            System.out.println("浏览量： " + document.getString("visits"));
+            System.out.println("浏览量： " + document.get("visits"));
             System.out.println("-----------------------------------------------");
         }
+
+//        删除数据库
+//        client.dropDatabase("spitdb");
         client.close();
+
     }
 }
